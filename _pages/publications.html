@@ -5,32 +5,36 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+You can also find my publications and citation information on my [Google Scholar profile](https://scholar.google.com/citations?user=P4AfS1kAAAAJ&hl=en).
 
-{% include base_path %}
+## Journal Articles
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+Villalobos, L., Caviglia-Harris, J., Harris, D., & Frey, E. (2026). Rural Electrification in the Brazilian Amazon: No Environment-Development Tradeoff. *Land Economics* (forthcoming).
 
+Brodeur, A., et al. (2026). Reproducibility and Robustness of Economics and Political Science Research. *Nature* (forthcoming).
 
+Villalobos, L., & Blackman, A. (2025). Air pollution and education in the Global South: Fine particulates reduce high-stakes test scores in Bogotá. *Applied Economics Letters*.
 
+Blackman, A., Leguizamo, E., & Villalobos, L. (2024). Points, cells, or polygons? On the choice of spatial units in forest conservation policy impact evaluation. *Environmental Research Letters*.
+
+Blackman, A., Bonilla, J. A., & Villalobos, L. (2023). Quantifying COVID-19’s silver lining: Avoided deaths from air quality improvements in Bogotá. *Journal of Environmental Economics and Management, 117*, 102749.
+
+Villalobos, L., Robalino, J., Sandoval, C., & Alpízar, F. (2022). Local Effects of Payments for Ecosystem Services on Rural Poverty. *Environmental and Resource Economics*, 1–22.
+
+Blackman, A., & Villalobos, L. (2021). Use forests or lose them? Regulated timber extraction and tree cover loss in Mexico. *Journal of the Association of Environmental and Resource Economists, 8*(1), 125–163.
+
+Blackman, A., & Villalobos, L. (2019). Clear, but don’t invest: protected areas discourage some land uses more than others. *Environmental Research Letters, 14*(10), 104002.
+
+Villalobos, L., Coria, J., & Nordén, A. (2018). Has forest certification reduced forest degradation in Sweden? *Land Economics, 94*(2), 220–238.
+
+Robalino, J., Pfaff, A., & Villalobos, L. (2017). Heterogeneous local spillovers from protected areas in Costa Rica. *Journal of the Association of Environmental and Resource Economists, 4*(3), 795–820.
+
+Robalino, J., & Villalobos, L. (2015). Protected areas and economic welfare: an impact evaluation of national parks on local workers' wages in Costa Rica. *Environment and Development Economics, 20*(3), 283–310.
+
+## Book Chapters
+
+Blackman, A., Leguízamo, E., & Villalobos, L. (2026). Choosing Spatial Units for Geospatial Impact Evaluation. In *Geospatial Impact Evaluation* (forthcoming).
+
+Damgaard, M. T., Gravert, C., & Villalobos, L. (2018). Forgetful or Reluctant? Evidence on Reminder Response and Donor Behavior from Panel Data (pp. 219–238). *CESifo Seminar Series*, MIT Press.
+
+Robalino, J., Pfaff, A., & Villalobos, L. (2012). Assessing the impact of institutional design of payments for environmental services: the Costa Rican experience. In *Ecosystem Services from Agriculture and Agroforestry* (pp. 339–352). Routledge.
