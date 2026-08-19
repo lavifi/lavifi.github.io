@@ -19,5 +19,3 @@ Research on the causal effects of protected areas and other conservation policie
 ### Environment and human capital
 
 Research on how environmental exposures, including heat and air pollution, affect educational and other human-capital outcomes.
-
-Selected papers and replication materials will be added here as the site develops.
