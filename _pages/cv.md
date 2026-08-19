@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-My curriculum vitae will be available here shortly.
+[Download my CV (PDF)](/files/Laura_Villalobos_CV.pdf){: .btn .btn--primary }
 
-For current publications and citation information, please see my [Google Scholar profile](https://scholar.google.com/citations?user=P4AfS1kAAAAJ&hl=en).
+For publications and citation information, see my [Google Scholar profile](https://scholar.google.com/citations?user=P4AfS1kAAAAJ&hl=en).
