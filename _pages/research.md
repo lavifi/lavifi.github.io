@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-My research is in environmental and development economics, with an emphasis on applied microeconomic questions at the intersection of the environment and economic development.
+My research examines the links between the environment and economic well-being, particularly in developing-country contexts. I use applied microeconometric methods to study climate and agricultural productivity, conservation and rural development, and environmental determinants of human capital.
 
 ## Research areas
 
