@@ -38,12 +38,12 @@
     "layout/json_cv"
 ;
 
-/* Keep portrait profile photos proportional in the sidebar. */
+/* Preserve the source photo's natural proportions on larger screens. */
 .author__avatar img {
   width: 175px;
-  height: 175px;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
+  max-width: 175px;
+  object-fit: contain;
 }
 
 /* Mobile refinements. */
