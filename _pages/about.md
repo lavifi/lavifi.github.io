@@ -13,7 +13,7 @@ redirect_from:
 Perdue School of Business  
 Perdue Hall  
 1101 Camden Avenue  
-Salisbury, MD 21801-6860
+Salisbury, MD 21801-6860  
 United States
 
 Email: lxvillalobos [at] salisbury.edu  
