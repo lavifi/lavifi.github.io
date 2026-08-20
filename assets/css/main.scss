@@ -45,3 +45,44 @@
   object-fit: cover;
   object-position: center;
 }
+
+/* Mobile refinements. */
+@media screen and (max-width: 767px) {
+  .author__avatar {
+    width: 72px;
+  }
+
+  .author__avatar img {
+    width: 72px;
+    height: 72px;
+    max-width: 72px;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .author__content {
+    padding-left: 12px;
+    padding-right: 8px;
+  }
+
+  .author__bio {
+    line-height: 1.35;
+  }
+
+  .archive,
+  .page {
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .publication-list p {
+    line-height: 1.55;
+  }
+
+  .publication-list a,
+  .archive a,
+  .page a {
+    overflow-wrap: anywhere;
+  }
+}
