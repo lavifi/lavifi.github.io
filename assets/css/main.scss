@@ -38,12 +38,20 @@
     "layout/json_cv"
 ;
 
-/* Preserve the source photo's natural proportions on larger screens. */
-.author__avatar img {
-  width: 175px;
-  height: auto;
-  max-width: 175px;
-  object-fit: contain;
+/* Larger portrait-style profile photo on desktop. */
+@media screen and (min-width: 768px) {
+  .author__avatar {
+    width: 210px;
+  }
+
+  .author__avatar img {
+    width: 210px;
+    height: auto;
+    max-width: 210px;
+    padding: 0;
+    border-radius: 8px;
+    object-fit: contain;
+  }
 }
 
 /* Mobile refinements. */
@@ -57,6 +65,7 @@
     height: 72px;
     max-width: 72px;
     padding: 0;
+    border-radius: 50%;
     object-fit: cover;
     object-position: center;
   }
